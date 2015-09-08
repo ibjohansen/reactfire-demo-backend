@@ -1,0 +1,13 @@
+{
+    "name": "reactfire-demo-backend",
+    "version": "0.0.1",
+    "description": "\"backend processes for reactfire demo\"",
+    "main": "app.js",
+    "private": true,
+    "dependencies": {
+        "express": "3.x",
+        "firebase": "1.0.11"
+    },
+    "author": "Ib Johansen",
+    "license": "MIT"
+}

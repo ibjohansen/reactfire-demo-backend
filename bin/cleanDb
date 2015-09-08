@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+var Firebase = require('firebase');
+var nodes = {
+    "strings": {
+        "-JiEPn2FMzEZldTFUmxp": {
+            "text": "Some text in the Firebase"
+        },
+        "-JiGNoWeU_Jfjb1Q7hDk": {
+            "text": "Some other text..."
+        }
+    }
+};
+var baseRef = new Firebase('https://reactfire-demo.firebaseio.com/');
+baseRef.set(nodes);
